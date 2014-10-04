@@ -1,0 +1,9 @@
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Tempeature.csprojResolveAssemblyReference.cache
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Tempeature.csproj.GenerateResource.Cache
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Temperature.Form1.resources
+E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Temperature.Properties.Resources.resources
