@@ -92,7 +92,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnConfirm);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "温度统计";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
