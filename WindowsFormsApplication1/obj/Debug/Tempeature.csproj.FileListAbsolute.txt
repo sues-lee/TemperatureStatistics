@@ -7,6 +7,3 @@ E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\WindowsFormsApplicatio
 E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Temperature.Form1.resources
 E:\dev\git\Tempe\Tempe\WindowsFormsApplication1\obj\Debug\Temperature.Properties.Resources.resources
-E:\dev\git\TemperatureStatistics\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-E:\dev\git\TemperatureStatistics\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-E:\dev\git\TemperatureStatistics\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
