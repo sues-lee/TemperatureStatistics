@@ -117,12 +117,15 @@ namespace Temperature
             {
 
                 MessageBox.Show("格式错误！");
-                sr.Close();     //关闭连接
-                ClearData();    //清空数据
+
                 return;
             }
+            finally
+            {
+                sr.Close();     //关闭连接
+                ClearData();    //清空数据
+            }
             label1.Text = "当前路径：" + pathIn;
-            sr.Close(); //关闭连接
             dataGridView1.DataSource = dtResult;
         }
 
@@ -148,11 +151,32 @@ namespace Temperature
                         }
                      result.Append("\r\n"); 
 	            }
-            FileStream fs = new FileStream(pathOut, FileMode.Create, FileAccess.Write);  
-            byte[] s = System.Text.Encoding.UTF8.GetBytes(result.ToString());
-            fs.Write(s, 0, s.Length);
-            System.Diagnostics.Process.Start("notepad", pathOut);
-            fs.Close();
+            WriteFile(result.ToString(),pathOut);
+        }
+
+        /// <summary>
+        /// 将字符串写到指定路径
+        /// </summary>
+        /// <param name="result">要输出的字符串</param>
+        /// <param name="path">文件路径</param>
+        private void WriteFile(String result,string path)
+        {
+            try
+            {
+                using(FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+                { 
+                    byte[] s = System.Text.Encoding.UTF8.GetBytes(result.ToString());
+                    fs.Write(s, 0, s.Length);
+                    System.Diagnostics.Process.Start("notepad", path);
+                 }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("输出路径错误！");
+                return;
+            }
+            
         }
 
        
