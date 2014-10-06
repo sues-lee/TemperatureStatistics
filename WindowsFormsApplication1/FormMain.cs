@@ -122,11 +122,13 @@ namespace Temperature
             }
             finally
             {
+                dataGridView1.DataSource = dtResult;
                 sr.Close();     //关闭连接
-                ClearData();    //清空数据
+               // ClearData();    //清空数据
+                drTemp = dtResult.NewRow();
             }
             label1.Text = "当前路径：" + pathIn;
-            dataGridView1.DataSource = dtResult;
+            //dataGridView1.DataSource = dtResult;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
